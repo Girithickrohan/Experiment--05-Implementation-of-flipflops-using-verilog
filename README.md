@@ -199,19 +199,19 @@ T FILPFLOP:
 ### TIMING DIGRAMS FOR FLIP FLOPS 
 SR FILPFLOP:
 
-![image](
+![image](https://raw.githubusercontent.com/Girithickrohan/Experiment--05-Implementation-of-flipflops-using-verilog/main/s.png)
 
 D FILPFLOP:
 
-![image](
+![image](https://raw.githubusercontent.com/Girithickrohan/Experiment--05-Implementation-of-flipflops-using-verilog/main/d%20(2).png)
 
 JK FILPFLOP:
 
-![image](
+![image](https://raw.githubusercontent.com/Girithickrohan/Experiment--05-Implementation-of-flipflops-using-verilog/main/j.png)
 
 T FILPFLOP:
 
-![image](
+![image](https://raw.githubusercontent.com/Girithickrohan/Experiment--05-Implementation-of-flipflops-using-verilog/main/t(2).png)
 
 
 ### RESULTS 
