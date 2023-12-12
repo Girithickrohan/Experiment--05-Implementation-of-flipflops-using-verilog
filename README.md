@@ -117,34 +117,101 @@ STEP 6: Run the program and choose RTL viewer to get RTL realization.
 
 
 ### PROGRAM 
+```
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: Girithick Rohan
 RegisterNumber:  23003797
 */
-## jk
+## SR FILPFLOP:
 
+module srf(s,r,clk, q,qbar);
+input s,r,clk;
+output reg q;
+output qbar;
+always@(posedge clk)
+begin
+q= s[((~r)&q);
+end
+assign qbar=~q;
+endmodule
+## D FLIPFLOPS:
 
+module Df(d, clk, q,qbar);
+input d, clk;
+output reg q;
+output qbar;
+always@(posedge clk)
+begin
+q=d;
+end
+assign qbar=~q;
+endmodule
+
+## JK FILPFLOP:
+
+module jk(j,k, clk, q, qbar);
+input j,k,clk;
+output q, qbar;
+reg q,qbar;
+always @(posedge clk)
+begin q<=(j&~q)|(~k&q);
+qbar<=~q;
+end
+endmodule
+
+## T FILPFLOP:
+
+module t(t, clk,q,qbar);
+input t,clk;
+output reg q;
+output qbar;
+always@(posedge clk)
+begin
+q=((~q)&t) (q&(~t));
+end
+assign qbar=~q;
+endmodule
+
+```
 
 
 
 ### RTL LOGIC FOR FLIPFLOPS 
 
+SR FILPFLOP:
 
+![image](
 
+D FILPFLOP:
 
+![image](
 
+JK FILPFLOP:
 
+![image](
 
+T FILPFLOP:
+
+![image](
 
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
+SR FILPFLOP:
 
+![image](
 
+D FILPFLOP:
 
+![image](
 
+JK FILPFLOP:
 
+![image](
 
+T FILPFLOP:
+
+![image](
 
 
 ### RESULTS 
