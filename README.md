@@ -181,19 +181,19 @@ endmodule
 
 SR FILPFLOP:
 
-![image](
+![image](https://raw.githubusercontent.com/Girithickrohan/Experiment--05-Implementation-of-flipflops-using-verilog/main/SR.png)
 
 D FILPFLOP:
 
-![image](
+![image](https://raw.githubusercontent.com/Girithickrohan/Experiment--05-Implementation-of-flipflops-using-verilog/main/D.png)
 
 JK FILPFLOP:
 
-![image](
+![image](https://raw.githubusercontent.com/Girithickrohan/Experiment--05-Implementation-of-flipflops-using-verilog/main/JK.png)
 
 T FILPFLOP:
 
-![image](
+![image](https://raw.githubusercontent.com/Girithickrohan/Experiment--05-Implementation-of-flipflops-using-verilog/main/T.png)
 
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
