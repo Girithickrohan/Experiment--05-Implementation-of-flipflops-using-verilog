@@ -215,3 +215,4 @@ T FILPFLOP:
 
 
 ### RESULTS 
+Thus,Implementation-of-flipflops-using successfully completed.
